@@ -5,16 +5,26 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
-    text-align: center;
+    text-align: auto;
 
 }
 
 h1{
-
+ text-align: center;
 }
+
 
 h2 {
 
+}
+
+h4 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h5 {
+    color: red;
 }
 
 p { 
@@ -34,7 +44,7 @@ margin: 0 20%;
 
 nav {
     background-color: white;
-    padding: 10px;
+    padding: .05px;
     width: 100%;
     border-top: silver solid .05px;
     border-bottom: silver solid .05px;
@@ -51,11 +61,29 @@ nav li {
 
 nav a {
     text-decoration: none;
+    font-style: sans-serif;
     font-size: 1em;
-    color: black;
+    color: silver;
     margin-right: 25px;
 }
 
 nav a:hover {
     color: gold;
+}
+
+.border {
+    border: silver solid .01px;
+}
+
+.more-articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-articles img{
+    max-width: 50%;
+    max-height: 100%;
+    gap: 20px;
+    -ms-flex-item-align: center;
 }
