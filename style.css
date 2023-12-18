@@ -14,9 +14,7 @@ h1{
 }
 
 
-h2 {
 
-}
 
 h4 {
     font-family: sans-serif;
@@ -26,9 +24,7 @@ h5 {
     color: red;
 }
 
-p { 
 
-}
 
 img {
     width: 100%;
@@ -47,6 +43,13 @@ nav {
     width: 100%;
     border-top: silver solid .05px;
     border-bottom: silver solid .05px;
+    
+}
+
+.position {
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
 }
 
 nav ul {
@@ -81,10 +84,32 @@ nav a:hover {
 }
 
 .more-articles img{
-    max-width: 700px;
-    max-height: 100%;
+    max-width: 75%;
+    max-height: auto;
     gap: 50px;
    border-radius: 5%;
 
 }
 
+footer {
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 2.5em 1.25em;
+    border: 0;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical: baseline;
+}
+
+footer a:hover {
+color: Cyan;
+cursor: pointer;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+
+}
